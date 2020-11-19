@@ -1,4 +1,4 @@
-FROM node:12.18.3-alpine-3.12
+FROM node:14.15.1-alpine3.12
 
 RUN apk update && apk upgrade && apk add --no-cache \
     wget \
